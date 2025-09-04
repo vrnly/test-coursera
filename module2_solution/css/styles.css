@@ -36,28 +36,29 @@
 
 .box1 h2, .box2 h2, .box3 h2 {
     position: absolute;
-    top: 0;
+    top: -1px; 
     right: 0;
     margin: 0;
     padding: 10px 10px;          
     border: 1px solid black;    
     border-radius: 0 10px 0 0;
+    border-right: none;
     font-size: 1.2em;
     font-weight: bold;
   }
   
   .box1 h2 {
-    background-color: #ff9900;  /* orange */
-    color: #fff;                 /* white text for contrast */
+    background-color: #ff9900;  
+    color: #fff;                 
   }
   
   .box2 h2 {
-    background-color: #0099cc;  /* blue */
+    background-color: #0099cc;  
     color: #fff;
   }
   
   .box3 h2 {
-    background-color: #9933cc;  /* purple */
+    background-color: #9933cc;  
     color: #fff;
   }
 
